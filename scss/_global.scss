@@ -1,0 +1,29 @@
+html{
+	box-sizing: border-box;
+}
+*,*::after,*::before{
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #242B33;
+    color: #fff;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title {
+	color: #D4C17F;
+	@extend %playfair-bold;
+}
